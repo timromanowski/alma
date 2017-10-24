@@ -1,0 +1,26 @@
+{
+  "name": "alma",
+  "version": "1.0.0",
+  "description": "Free Bot for Pregnant Women",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "build:watch": "babel src --out-dir lib --source-maps --watch",
+    "build": "babel src --out-dir lib --source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timromanowski/alma.git"
+  },
+  "author": "Tim Romanowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timromanowski/alma/issues"
+  },
+  "homepage": "https://github.com/timromanowski/alma#readme",
+  "dependencies": {
+    "botbuilder": "^3.11.0",
+    "restify": "^6.2.3"
+  }
+}
